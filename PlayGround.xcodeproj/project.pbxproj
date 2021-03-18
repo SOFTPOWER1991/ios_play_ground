@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D94D3AD826041CB100552461 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9DEF0162600E8DE0058F895 /* PlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DEF0192600E8DE0058F895 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9DEF01A2600E8DE0058F895 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		D9DEF00D2600E8DE0058F895 = {
 			isa = PBXGroup;
 			children = (
+				D94D3AD826041CB100552461 /* README.md */,
 				D9DEF0182600E8DE0058F895 /* PlayGround */,
 				D9DEF0372600E8DF0058F895 /* PlayGroundTests */,
 				D9DEF0422600E8DF0058F895 /* PlayGroundUITests */,
