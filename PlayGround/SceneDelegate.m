@@ -27,11 +27,9 @@
     
     ViewController *viewController = [[ViewController alloc]init];
     
-    UINavigationController *uiNavigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    
    
 //    controller1.view.backgroundColor = [UIColor  redColor];
-    uiNavigationController.tabBarItem.title = @"新闻";
+    viewController.tabBarItem.title = @"新闻";
     
     
     UIViewController *controller2= [[UIViewController alloc]init];
@@ -46,9 +44,13 @@
     controller4.view.backgroundColor = [UIColor  blackColor];
     controller4.tabBarItem.title = @"4444";
     
-    [tabBarController setViewControllers:@[uiNavigationController, controller2, controller3, controller4]];
+    [tabBarController setViewControllers:@[viewController, controller2, controller3, controller4]];
     
-    self.window.rootViewController = tabBarController;
+    
+    UINavigationController *uiNavigationController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
+    
+    
+    self.window.rootViewController =uiNavigationController ;
     [self.window makeKeyAndVisible];
 }
 
