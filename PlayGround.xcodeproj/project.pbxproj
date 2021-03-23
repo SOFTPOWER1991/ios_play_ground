@@ -39,6 +39,7 @@
 		D94D3AD826041CB100552461 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D94D3ADD26072E4E00552461 /* 10-UINavigationController.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "10-UINavigationController.md"; sourceTree = "<group>"; };
 		D94D3AE1260735E200552461 /* 11-IOS基本页面框架的构成和实现.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "11-IOS基本页面框架的构成和实现.md"; sourceTree = "<group>"; };
+		D94D3AE5260A34C400552461 /* 13-UITableView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "13-UITableView.md"; sourceTree = "<group>"; };
 		D9DEF0162600E8DE0058F895 /* PlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DEF0192600E8DE0058F895 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9DEF01A2600E8DE0058F895 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 			children = (
 				D94D3ADD26072E4E00552461 /* 10-UINavigationController.md */,
 				D94D3AE1260735E200552461 /* 11-IOS基本页面框架的构成和实现.md */,
+				D94D3AE5260A34C400552461 /* 13-UITableView.md */,
 			);
 			path = Doc;
 			sourceTree = "<group>";
